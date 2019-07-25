@@ -74,6 +74,7 @@ function draw() {
   
   if(gameState === PLAY&&trex.y>=159){
     ground.velocityX = -(6 + 3*score/100);
+  }
     
   score = score + Math.round(getFrameRate()/60);
     
